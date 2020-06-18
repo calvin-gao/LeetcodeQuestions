@@ -14,9 +14,6 @@ Output: 1
 */
 public class SingleNumber
 {
-    public static void main (String args[])
-    {
-    }
     public int singleNumber(int[] nums)
     {
         HashMap<Integer,Integer> numSeen = new HashMap<>();

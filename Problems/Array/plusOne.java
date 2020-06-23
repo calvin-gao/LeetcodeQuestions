@@ -18,7 +18,7 @@ Input: [4,3,2,1]
 Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.*/
 
-package Problems.Array;;
+package Problems.Array;
 import java.util.*;
 
 public class plusOne {

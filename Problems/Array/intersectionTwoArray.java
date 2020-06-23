@@ -16,7 +16,7 @@ Each element in the result should appear as many times as it shows in both array
 The result can be in any order.*/
 
 
-package Problems.Array;;
+package Problems.Array;
 import java.util.*;
 
 public class intersectionTwoArray {

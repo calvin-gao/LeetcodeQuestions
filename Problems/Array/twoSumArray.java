@@ -1,4 +1,4 @@
-package Problems.Array;;
+package Problems.Array;
 import java.util.*;
 
 /*

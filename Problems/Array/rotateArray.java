@@ -18,7 +18,7 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]*/
 
 
 
-package Problems.Array;;
+package Problems.Array;
 
 public class rotateArray{
     public static void main (String args[])

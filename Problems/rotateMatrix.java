@@ -3,31 +3,22 @@ package Problems;
 public class rotateMatrix {
 
 public void rotate(int[][] matrix) {
-    int num = matrix.length;
+    int len = matrix.length;
 
-    //Transposing the Matrix
-    for(int i = 0; i < num; i++)
-    {
-        // j = i to swap only once otherwise its twice
-        for(int j = i; j< num; j++)
-        {
+    // swap left and right values
+    for(int i = 0; i< len / 2; i++){
+        int temp[] = matrix[i];
+        matrix[i] = matrix[len-1-i];
+        matrix[len-1-i] = temp;
+    }
+    // transpose
+    for(int i = 0; i< len ; i++){
+        for(int j = i; j< len; j++){
             int temp = matrix[i][j];
             matrix[i][j] = matrix[j][i];
             matrix[j][i] = temp;
         }
     }
-
-    for(int i =0; i < num; i++)
-    {
-        for(int j = 0; j < (num/2); j++)
-        {
-            int temp = matrix[i][j];
-            matrix[i][j] = matrix[i][num-1-j];
-            matrix[i][num-1-j] = temp;
-        }
-    }
-
-
 }
     
 }

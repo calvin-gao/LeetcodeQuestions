@@ -23,7 +23,7 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
 */
 
 
-package Problems;
+package Problems.Array;;
 
 public class newProfit {
     public static void main(String args[])

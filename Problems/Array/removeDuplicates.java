@@ -21,7 +21,7 @@ It doesn't matter what values are set beyond the returned length.
 */
 
 
-package Problems;
+package Problems.Array;;
 
 public class removeDuplicates
 {

@@ -15,18 +15,27 @@ Clarification:
 What should we return when needle is an empty string? This is a great question to ask during an interview.
 
 For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().*/
+package Problems.Strings;
+import java.util.*;
 
 public class mystrStr{
-    public int strStr(String haystack, String needle) 
-    {
-        int haystacklen = haystack.length();
-        int needlelen = needle.length();
-        for(int i = 0; i < haystacklen; ++i)
+    public int strStr(String haystack, String needle) {
+        if(needle.length() == 0)
+            return 0;
+        if(haystack.length() == 0)
+            return -1;
+        for(int i = 0; i < haystack.length(); ++i)
         {
-            if(haystack.charAt(i) == (needle.charAt(i)  ))
+            if(i + needle.length() > haystack.length())
+                break;
+            for(int j = 0 ; j < needle.length(); ++j)
             {
-
+                if(haystack.charAt(i + j) != needle.charAt(j))
+                    break;
+                if(j == needle.length() - 1)
+                    return i;
             }
         }
+        return -1;  
     }
 }

@@ -20,7 +20,7 @@ public class reverseLinkedList {
         while(curr != null)
         {
             ListNode temp = curr.next;
-            curr.next = prev;   
+            curr.next = prev;
             prev = curr;
             curr = temp;
         }

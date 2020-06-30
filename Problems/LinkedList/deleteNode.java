@@ -30,11 +30,6 @@ Do not return anything from your function. */
 
 package Problems.LinkedList;
 
-class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int x) { val = x; } }
-
 public class deleteNode {
     /**
  * Definition for singly-linked list.

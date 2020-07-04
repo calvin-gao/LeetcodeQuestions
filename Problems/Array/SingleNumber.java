@@ -16,16 +16,16 @@ public class SingleNumber
 {
     public int singleNumber(int[] nums)
     {
-        HashMap<Integer,Integer> numSeen = new HashMap<>();
-        for(int i : nums)
+        HashMap<Integer,Integer> seen = new HashMap<Integer,Integer>();
+        for(int num : nums)
         {
-            numSeen.put(i, numSeen.getOrDefault(i,0) + 1);
+            seen.put(num, seen.getOrDefault(num, 0) + 1);
         }
-        for(int i : nums)
+        for(int num: nums)
         {
-            if(numSeen.get(i) == 1)
+            if(seen.get(num) == 1)
             {
-                return i;
+                return num;
             }
         }
         return 0;

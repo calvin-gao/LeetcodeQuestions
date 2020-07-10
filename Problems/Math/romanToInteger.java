@@ -11,7 +11,7 @@ public class romanToInteger {
        if(s.indexOf("CM")!=-1){sum-=200;}
        
        char c[]=s.toCharArray();
-       int count=0;
+       int count=0; 
        
       for(;count<=s.length()-1;count++){
           if(c[count]=='M') sum+=1000;

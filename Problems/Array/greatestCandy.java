@@ -11,13 +11,12 @@ public class greatestCandy {
             }
         }
         for(int i = 0 ; i < candies.length; i++){
-            if(candies[i] + extraCandies > maxCandy){
+            if(candies[i] + extraCandies >= maxCandy){
                 res.add(i, true);
             }else{
                 res.add(i, false); 
             }
         }
         return res;
-
     }
 }

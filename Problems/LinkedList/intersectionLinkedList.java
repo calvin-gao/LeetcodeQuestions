@@ -1,4 +1,4 @@
-package Problems.LinkedList;
+package LinkedList;
 
 public class intersectionLinkedList {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

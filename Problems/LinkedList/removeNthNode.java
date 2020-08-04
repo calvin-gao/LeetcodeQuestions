@@ -16,7 +16,7 @@ Follow up:
 Could you do this in one pass?*/
 
 
-package Problems.LinkedList;
+package LinkedList;
 
 public class removeNthNode {
     public ListNode removeNthFromEnd(ListNode head, int n) {

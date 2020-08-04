@@ -17,7 +17,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.*/
 
 
-package Problems.DynamicProgramming;
+package DynamicProgramming;
 
 public class buySellStocks {
     public int maxProfit(int[] prices) {

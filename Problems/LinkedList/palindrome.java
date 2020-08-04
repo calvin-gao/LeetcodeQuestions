@@ -11,7 +11,7 @@ Input: 1->2->2->1
 Output: true
 Follow up:
 Could you do it in O(n) time and O(1) space?*/
-package Problems.LinkedList;
+package LinkedList;
 
 public class palindrome {
     public boolean isPalindrome(ListNode head) 

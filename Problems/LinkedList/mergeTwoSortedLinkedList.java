@@ -7,7 +7,7 @@ Example:
 Input: 1->2->4, 1->3->4
 Output: 1->1->2->3->4->4*/
 
-package Problems.LinkedList;
+package LinkedList;
 
 public class mergeTwoSortedLinkedList {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) 

@@ -10,7 +10,7 @@ Follow up:
 
 A linked list can be reversed either iteratively or recursively. Could you implement both?*/
 
-package Problems.LinkedList;
+package LinkedList;
 
 public class reverseLinkedList {
     public ListNode reverseList(ListNode head) 

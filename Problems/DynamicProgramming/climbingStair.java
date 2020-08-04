@@ -25,7 +25,7 @@ Constraints:
 1 <= n <= 45*/
 
 
-package Problems.DynamicProgramming;
+package DynamicProgramming;
 import java.util.*;
 
 public class climbingStair {

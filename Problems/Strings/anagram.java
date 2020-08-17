@@ -23,7 +23,7 @@ public class anagram {
     public boolean isAnagram(String s, String t) {
         if(s.length() != t.length())
         {
-            return false;
+            return false; // return
         }
 
         int [] anagram = new int[26];
